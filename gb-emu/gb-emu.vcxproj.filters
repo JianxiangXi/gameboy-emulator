@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="res\tests\instr_timing.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="res\tests\cpu_instrs.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="..\res\tests\01-special.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\02-interrupts.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\03-op sp,hl.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\04-op r,imm.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\05-op rp.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\06-ld r,r.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\07-jr,jp,call,ret,rst.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\08-misc instrs.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\09-op r,r.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\10-bit ops.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\11-op a,(hl).gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\01-read_timing.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\02-write_timing.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\03-modify_timing.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\mem_timing.gb">
+      <Filter>res\tests</Filter>
+    </None>
+    <None Include="..\res\tests\oam_bug.gb">
+      <Filter>res\tests</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{f6e50b41-7ee8-4c5f-8894-c06431f8f0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\tests">
+      <UniqueIdentifier>{881a1e82-9f47-4576-b3ca-11e069be9ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{24865f9a-e104-4901-ad1c-1acde3737588}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{c8fdb02d-2ecf-48c4-9774-baec71afb9bb}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="*.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
